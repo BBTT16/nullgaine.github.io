@@ -111,6 +111,24 @@ footer {
   box-sizing: border-box;
 }
 
+/*페이지 위로 올라가는 버튼*/
+footer #page-top{
+  width: 149px;
+  height: 59px;
+  font-family: "Noto Sans JP", sans-serif; /*버튼 폰트 유형*/
+  font-size: 16px;
+  color: #683722; /*버튼 글자 색*/
+  background: #fff; /*버튼 색*/
+  border-radius: 20px 20px 0 0;
+  position: absolute;
+  bottom: 0px;
+  right: 41px;
+  text-align: center;
+  line-height: 59px;
+  border: none;
+  outline: none;
+}
+
 /* Responsive Design */
 @media (max-width: 768px) {
   nav ul {
@@ -121,3 +139,4 @@ footer {
     font-size: 18px;
   }
 }
+
